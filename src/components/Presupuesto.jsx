@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Presupuesto = (props) => {
     return (
@@ -6,6 +7,10 @@ const Presupuesto = (props) => {
             Presupuesto: $ {props.presupuesto}
         </div>
     )
+}
+
+Presupuesto.propTypes = {
+    presupuesto: PropTypes.string.isRequired
 }
 
 export default Presupuesto;

@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 // Components
 import Gasto from './Gasto';
 
@@ -20,4 +21,7 @@ class Listado extends Component {
     }
 }
 
+Listado.propType = {
+    gasto: PropTypes.object.isRequired
+}
 export default Listado;
