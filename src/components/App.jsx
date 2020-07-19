@@ -57,7 +57,6 @@ class App extends Component {
     restante -= restar;
 
     restante = String(restante);
-    // Restante del state le pongo como valor el resultado de la resta.
     this.setState({
       restante: restante
     })

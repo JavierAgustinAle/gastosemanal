@@ -11,7 +11,6 @@ const Restante = (props) => {
         alert('Ya ha gastado el total del presupuesto!')
     }
     return (
-        // Llamo al metodo que me devuelve un tipo de clase dependiendo cuanto se haya gastado del presupuesto
         <div className={revisarPresupuesto(presupuesto, restante)}>
             Restante: $ {props.restante}
         </div>
