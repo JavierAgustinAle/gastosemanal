@@ -38,7 +38,6 @@ class App extends Component {
   agregarGasto = gasto => {
     const gastos = { ...this.state.gastos }
 
-    // agregos el gasto al state con la fecha para que no se repitan
     gastos[`gastos${Date.now()}`] = gasto;
 
     this.restarPresupuesto(gasto.totalGasto);
@@ -48,7 +47,7 @@ class App extends Component {
     })
   }
 
-  // Al crear un gasto lo restamos del restante
+
 
   restarPresupuesto = cantidad => {
     let restar = Number(cantidad);
@@ -87,7 +86,6 @@ class App extends Component {
               </div>
             </div>
           </div>
-
         </div>
       </>
     );
