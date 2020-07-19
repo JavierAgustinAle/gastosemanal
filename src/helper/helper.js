@@ -1,3 +1,5 @@
+
+
 export const validarPresupuesto = presupuesto => {
     let totalPresupuesto = parseInt(presupuesto, 10) || 0;
 
