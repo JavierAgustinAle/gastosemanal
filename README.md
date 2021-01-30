@@ -5,7 +5,8 @@ Control de Gasto Semanal realizado usando React Js.
  
  ### En esta aplicación el usuario comienza ingresando el total del presupuesto semanal que dispone. Despues va agregando un nombre y el total del gasto que realiza,la aplicacion le ira restando de su presupuesto y le avisara cuando lo agote.
 
-
+> Vista de la App.
+![Inicio](https://user-images.githubusercontent.com/39749087/106361488-f19fe280-62fc-11eb-8f7d-965817e2e55d.png)
 
 19/07/2020
 
